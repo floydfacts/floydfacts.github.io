@@ -9,6 +9,10 @@ html{
 	padding: 0;
 }
 
+body{
+	font-family: comfortaa;
+}
+
 #header{
 	background-color: #ecf2ff;
 	padding: 20px;
