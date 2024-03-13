@@ -39,7 +39,7 @@ h2{
 	font-family: comfortaa;
 	color: #56AE57; 
 }
-h2.updated{
+h2#updated{
 	font-size: 70%;
 	color: #ccc; 
 }
