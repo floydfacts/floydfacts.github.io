@@ -13,11 +13,9 @@ a{
 	color: #09f; 
 	text-decoration: none; 
 }
-ul li{
-	color: red; 
-}
 ul#nav{
-	list-style-type: none; 
+	list-style-type: none;
+	display: inline; 
 }
 
 ul#nav li::after{
