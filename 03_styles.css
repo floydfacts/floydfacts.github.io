@@ -22,7 +22,8 @@ body{
 
 div#case{
 	padding: 20px;
-	padding-top: 0; 
+	padding-top: 0;
+	max-width: 550px; 
 }
 
 h1 {font-family: comfortaa;}
