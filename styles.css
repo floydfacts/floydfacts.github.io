@@ -13,3 +13,13 @@ a{
 	color: #09f; 
 	text-decoration: none; 
 }
+ul#nav{
+	list-style-type: none; 
+}
+
+ul#nav li::after{
+	content: " | "; 
+}
+ul#nav li.last::after{
+	content: ""; 
+}
