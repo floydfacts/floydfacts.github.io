@@ -13,6 +13,10 @@ body{
 	font-family: comfortaa;
 }
 
+.hide{
+	display: none; 
+}
+
 #header{
 	background-color: #ecf2ff;
 	padding: 20px;
