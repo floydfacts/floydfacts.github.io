@@ -1,7 +1,8 @@
 </div><!-- case closed -->
 <div id="footer">
 <div w3-include-html="04_nav"></div>
-<p>My name is R. Floyd Lindquist. I am an independent scholar and researcher, currently in midwestern United States. Several <a href="paper.html">pieces of papers</a> prove that I have read various books, attended various lectures, and passed various tests - some clinical, others theoretical. The <a href="about">about</a> page has more. <a href="contact.html">Contact</a> me if you would like.</p>
+<p>My name is R. Floyd Lindquist. I am an independent scholar and researcher, currently in midwestern United States. Several <a href="paper.html">pieces of papers</a> prove that I have read various books, attended various lectures, and passed various tests - some clinical, others theoretical. The <a href="about">about</a> page has more.
+<br /><a href="contact.html">Contact</a> me if you would like.</p>
 </div>
 </body>
 </html>
