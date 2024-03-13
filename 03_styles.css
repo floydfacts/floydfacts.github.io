@@ -85,6 +85,9 @@ ul#nav li#last::after{
 	content: ""; 
 }
 
+#faq li{
+	margin-bottom: 3px; 
+}
 
 #footer{
 	padding: 20px 40% 20px 2%;
