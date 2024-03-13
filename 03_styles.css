@@ -49,6 +49,7 @@ ul#nav li#last::after{
 
 
 #footer{
-	padding: 10px 20%;
+	padding: 10px 40% 10px 2%;
 	background-color: #fff5ed;
+	min-width: 400px; 
 }
