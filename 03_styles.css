@@ -105,7 +105,7 @@ ul#nav li#last::after{
 }
 
 #footer{
-	padding: 20px 40% 20px 2%;
+	padding: 20px 0% 20px 2%;
 	background-color: #fff5ed;
 	min-width: 400px;
 	border-top-left-radius: 1em;
