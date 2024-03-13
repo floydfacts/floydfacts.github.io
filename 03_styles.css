@@ -37,6 +37,8 @@ ul#nav{
 
 ul#nav li{
 	display: inline; 
+	padding: 0; 
+	margin: 0; 
 }
 
 ul#nav li::after{
