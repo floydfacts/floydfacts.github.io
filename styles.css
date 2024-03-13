@@ -13,6 +13,9 @@ a{
 	color: #09f; 
 	text-decoration: none; 
 }
+ul li{
+	color: red; 
+}
 ul#nav{
 	list-style-type: none; 
 }
