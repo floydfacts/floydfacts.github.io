@@ -1,9 +1,14 @@
+html{
+	background-color: #000; 
+}
 body{
+	background-color: #fff; 
 }
 
 #header{
 	background-color: #ecf2ff;
-	padding: 10px; 
+	padding: 10px;
+	padding-top: 0; 
 }
 
 h1 {
