@@ -1,6 +1,6 @@
 <ul id="nav">
-<li><a href="about.html">About</a></li>
 <li><a href="help.html">Help</a></li>
 <li><a href="files/lindquist_r_floyd--degrees_certs_titles--updated--2024-3-13.pdf">Pieces of Paper</a></li>
+<li><a href="about.html">About</a></li>
 <li id="last"><a href="contact.html">Contact</a></li>
 </ul>
