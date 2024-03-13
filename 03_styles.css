@@ -58,4 +58,5 @@ ul#nav li#last::after{
 	background-color: #fff5ed;
 	min-width: 400px;
 	border-top-left-radius: 1em;
+	color: #333;
 }
