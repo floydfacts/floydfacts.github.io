@@ -4,6 +4,11 @@ html{
 body{
 }
 
+#content{
+	padding: 10px;
+	padding-top: 0; 
+}
+
 #header{
 	background-color: #ecf2ff;
 	padding: 10px;
