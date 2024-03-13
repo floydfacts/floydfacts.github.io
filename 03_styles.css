@@ -8,14 +8,14 @@ body{
 	padding: 0;
 }
 
-#content{
-	padding: 20px;
-	padding-top: 0; 
-}
-
 #header{
 	background-color: #ecf2ff;
 	padding: 10px;
+	padding-top: 0; 
+}
+
+#content{
+	padding: 20px;
 	padding-top: 0; 
 }
 
