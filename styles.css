@@ -1,0 +1,15 @@
+body{
+}
+h1 {
+	color: #f90; 
+}
+h1 span{
+	display: block;
+	font-size: 60%; 
+}
+p{
+}
+a{
+	color: #09f; 
+	text-decoration: none; 
+}
