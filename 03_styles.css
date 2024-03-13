@@ -34,6 +34,14 @@ flex-wrap: wrap;
 padding-left: 1.5em; 
 }
 
+#flex_published{
+	background-color: #adf7b6; 
+}
+
+#flex_upcoming{
+	background-color: #ffee93; 
+}
+
 p{
 }
 
