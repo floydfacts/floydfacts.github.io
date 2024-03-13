@@ -100,3 +100,6 @@ ul#nav li#last::after{
 #footer a{
 	color: #ffb347
 }
+#footer p{
+	max-width: 550px; 
+}
