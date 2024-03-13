@@ -2,13 +2,16 @@ html{
 	background-color: #000; 
 }
 body{
-	background-color: #fff; 
+	background-color: #000; 
 }
 
 #header{
 	background-color: #ecf2ff;
 	padding: 10px;
 	padding-top: 0; 
+}
+#case{	
+	background-color: #fff; 
 }
 
 h1 {
