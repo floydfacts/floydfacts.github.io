@@ -21,9 +21,8 @@ div#case{
 	padding-top: 0; 
 }
 
-h1 a{
-	color: #272973; 
-}
+h1 {font-family: comfortaa;}
+h1 a{color: #272973;}
 
 h1 span{
 	display: block;
