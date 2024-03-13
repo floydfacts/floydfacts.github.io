@@ -26,3 +26,8 @@ ul#nav li::after{
 ul#nav li#last::after{
 	content: ""; 
 }
+
+
+#footer{
+	padding: 20px 0;
+}
