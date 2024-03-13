@@ -1,3 +1,8 @@
+@font-face {
+  font-family: comfortaa;
+  src: url(files/comfortaa.otf);
+}
+
 html{
 	background-color: #fff; 
 	margin: 0;
