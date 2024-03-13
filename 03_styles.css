@@ -26,6 +26,10 @@ h1 span{
 	font-style: italic; 
 }
 
+h2{
+	color: ##56AE57; 
+}
+
 .flex{
 display: flex;
 flex-wrap: wrap;
