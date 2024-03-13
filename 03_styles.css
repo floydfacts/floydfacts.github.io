@@ -56,7 +56,4 @@ ul#nav li#last::after{
 #footer{
 	padding: 10px 20% 0 20%;
 	background-color: #fff5ed;
-	position: absolute;
-	left: 0;
-	bottom: 0;
 }
