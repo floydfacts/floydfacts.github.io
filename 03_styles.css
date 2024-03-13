@@ -17,7 +17,7 @@ div#case{
 }
 
 h1 {
-	color: #f90; 
+	color: #09f; 
 }
 
 h1 span{
@@ -79,4 +79,7 @@ ul#nav li#last::after{
 	min-width: 400px;
 	border-top-left-radius: 1em;
 	color: #999;
+}
+#footer a{
+	color: #ffb347
 }
