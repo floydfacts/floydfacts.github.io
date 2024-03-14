@@ -25,6 +25,8 @@ body{
 	border-bottom-left-radius: 1em;
 	min-height: 250px; 
 	background-image: url("files/logo.png");
+	background-repeat: no-repeat;
+	background-size: 122px 250px;
 }
 
 div#case{
