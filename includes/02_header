@@ -2,7 +2,7 @@
 </head>
 <body>
 <div id="header">
-<a href="https://floydfacts.github.io"><img id="logo_click" src="..files/clear.png" /></a>
+<a href="https://floydfacts.github.io"><img id="logo_click" src="../files/clear.png" /></a>
 <h1>Floyd Facts<span class="hide">:</span> <span>Help for Conservative Christian Husbands and Dads<span class="hide">:</span> <span>Expert Info About Resilience, Bereavement, Health, U.S. Law, and More</span></span></h1>
 <div w3-include-html="../includes/04_nav"></div>
 </div>
