@@ -89,7 +89,8 @@ ul#nav{
 }
 
 ul#nav li{
-	display: inline; 
+	display: inline;
+	color: #A7C7E7; 
 }
 
 ul#nav li::after{
