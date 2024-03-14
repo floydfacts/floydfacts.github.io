@@ -27,7 +27,12 @@ body{
 	background-image: url("files/logo.png");
 	background-repeat: no-repeat;
 	background-size: 122px 250px;
-	vertical-align: middle; 
+	
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
 }
 #header a{
 	white-space: wrap;
