@@ -52,13 +52,14 @@ div#case{
 h1{
 	font-family: comfortaa;
 	padding-top: 55px;
-	color: #E4CD05;
+	color: #fff200;
 }
 
 h1 span{
 	display: block;
 	font-size: 60%;
-	font-style: italic; 
+	font-style: italic;
+	color: #E4CD05;
 }
 
 h1 span span{
