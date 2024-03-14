@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: josefin;
-  src: url(files/josefin.ttf);
+  src: url(files/righteous.ttf);
 }
 
 html{
@@ -54,7 +54,7 @@ div#case{
 }
 
 h1{
-	font-family: josefin;
+	font-family: righteous;
 	padding-top: 55px;
 	color: #ffff00;
 }
