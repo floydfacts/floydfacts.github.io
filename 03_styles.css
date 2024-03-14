@@ -28,7 +28,7 @@ body{
 	background-repeat: no-repeat;
 	background-size: 122px 250px;
 }
-#header h1, #header, a{
+#header h1, #header a{
 	margin: 0;
 	position: absolute;
 	top: 50%;
