@@ -29,6 +29,12 @@ body{
 	background-size: 122px 250px;
 }
 
+#header #logo_click{
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+}
+
 #header a{
 	white-space: wrap;
 }
