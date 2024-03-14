@@ -112,6 +112,10 @@ ul#nav li#last::after{
 	border-top-left-radius: 1em;
 	color: #999;
 }
+#footer ul#nav li{
+	display: inline;
+	color: #E7C7A7; 
+}
 #footer a{
 	color: #ffb347;
 	white-space: nowrap; 
