@@ -20,8 +20,9 @@ body{
 #header{
 	background-color: #ecf2ff;
 	padding: 20px;
-	padding-top: 75px;
+	padding-top: 0px;
 	padding-left: 150px; 
+	min-height: 250px; 
 	border-bottom-left-radius: 1em;
 	background-image: url("files/logo.png");
 	background-repeat: no-repeat;
@@ -38,7 +39,9 @@ div#case{
 	max-width: 550px; 
 }
 
-h1 {font-family: comfortaa;}
+h1 {font-family: comfortaa;
+   padding-top: 55px; 
+}
 h1 a{
 	color: #272973;
     }
