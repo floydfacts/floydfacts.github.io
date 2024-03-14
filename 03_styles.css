@@ -29,6 +29,9 @@ body{
 	background-size: 122px 250px;
 	vertical-align: middle; 
 }
+#header a{
+	white-space: wrap;
+}
 
 div#case{
 	padding: 20px;
@@ -39,7 +42,6 @@ div#case{
 h1 {font-family: comfortaa;}
 h1 a{
 	color: #272973;
-	white-space: wrap;
     }
 
 h1 span{
