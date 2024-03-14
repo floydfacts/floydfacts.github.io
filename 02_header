@@ -2,6 +2,7 @@
 </head>
 <body>
 <div id="header">
+<img id="logo_click" src="files/clear.png" />
 <h1><a href="index.html">Floyd Facts<span class="hide">:</span> <span>Help for Conservative Christian Husbands and Dads<span class="hide">:</span> <span>Expert Info About Resilience, Bereavement, Health, U.S. Law, and More</span></span></a></h1>
 <div w3-include-html="04_nav"></div>
 </div>
