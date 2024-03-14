@@ -79,7 +79,8 @@ p{
 
 a{
 	color: #09f; 
-	text-decoration: none; 
+	text-decoration: none;
+	white-space: nowrap; 
 }
 
 ul#nav{
@@ -118,7 +119,6 @@ ul#nav li#last::after{
 }
 #footer a{
 	color: #ffb347;
-	white-space: nowrap; 
 }
 #footer p{
 	max-width: 550px; 
