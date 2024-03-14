@@ -3,6 +3,10 @@
   src: url(files/comfortaa.ttf);
 }
 @font-face {
+  font-family: comfortaa;
+  src: url(files/comfortaa_bold.ttf);
+}
+@font-face {
   font-family: josefin;
   src: url(files/righteous.ttf);
 }
