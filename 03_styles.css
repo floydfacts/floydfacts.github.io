@@ -113,7 +113,7 @@ ul#nav li#last::after{
 }
 #footer a{
 	color: #ffb347;
-	whitespace: nowrap; 
+	white-space: nowrap; 
 }
 #footer p{
 	max-width: 550px; 
