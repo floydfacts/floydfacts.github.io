@@ -48,11 +48,9 @@ div#case{
 }
 
 h1 {font-family: comfortaa;
-   padding-top: 55px; 
+   padding-top: 55px;
+color: #272973;
 }
-h1 a{
-	color: #272973;
-    }
 
 h1 span{
 	display: block;
