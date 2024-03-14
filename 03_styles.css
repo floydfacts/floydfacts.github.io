@@ -27,6 +27,7 @@ body{
 	background-image: url("files/logo.png");
 	background-repeat: no-repeat;
 	background-size: 122px 250px;
+	vertical-align: middle; 
 }
 
 div#case{
@@ -36,7 +37,10 @@ div#case{
 }
 
 h1 {font-family: comfortaa;}
-h1 a{color: #272973;}
+h1 a{
+	color: #272973;
+	white-space: wrap;
+    }
 
 h1 span{
 	display: block;
