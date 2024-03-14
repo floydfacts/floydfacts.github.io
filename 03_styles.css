@@ -1,6 +1,10 @@
 @font-face {
   font-family: comfortaa;
-  src: url(files/comfortaa.otf);
+  src: url(files/comfortaa.ttf);
+}
+@font-face {
+  font-family: josefin;
+  src: url(files/josefin.ttf);
 }
 
 html{
@@ -50,7 +54,7 @@ div#case{
 }
 
 h1{
-	font-family: arial;
+	font-family: josefin;
 	padding-top: 55px;
 	color: #ffff00;
 }
