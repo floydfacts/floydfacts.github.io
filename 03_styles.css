@@ -20,8 +20,11 @@ body{
 #header{
 	background-color: #ecf2ff;
 	padding: 20px;
-	padding-top: 0; 
+	padding-top: 0;
+	padding-left: 200px; 
 	border-bottom-left-radius: 1em;
+	min-height: 250px; 
+	background-image: url("files/logo.png");
 }
 
 div#case{
