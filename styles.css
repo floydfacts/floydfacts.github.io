@@ -103,12 +103,12 @@ padding: 1.5em;
 	border-bottom-right-radius: 1em;
 }
 
-p, li{
+#case p, #case li{
   line-height: 25px;  
-  background: -webkit-repeating-linear-gradient(#000, #000 25px, #222 25px, #222 50px);
+  background: -webkit-repeating-linear-gradient(#fff, #fff 25px, #eee 25px, #eee 50px);
 
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  -webkit-text-fill-color: visible;
+  -webkit-background-clip: background;
 }
 
 a{
