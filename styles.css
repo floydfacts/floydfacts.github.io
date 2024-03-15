@@ -140,6 +140,7 @@ h2 #updated{
 }
 
 /* ALTERNATIVE PARAGRAPH BG COLOR ####################################################### */
+/* can't figure out exclusions! 
 #case p, #case li{
   line-height: 35px;  
   background: -webkit-repeating-linear-gradient(#ffffff, #ffffff 35px, #F8FFf8 35px, #F8FFf8 70px);
@@ -152,6 +153,7 @@ h2 #updated{
   -webkit-text-fill-color: visible;
   -webkit-background-clip: background;
 }
+*/
 
 /* exclude P alternating line colors */
 #flex_published, #flex_published li, #flex_upcoming, #flex_upcoming li, .faq p{
