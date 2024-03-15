@@ -1,3 +1,4 @@
+/* include-html ##################################### */
 function includeHTML() {
   var z, i, elmnt, file, xhttp;
   /* Loop through a collection of all HTML elements: */
@@ -25,3 +26,19 @@ function includeHTML() {
     }
   }
 }; 
+
+
+/* FAQ Accordian ##################################### */
+  function faq(){      
+  let answers=document.querySelectorAll(".faq");
+        answers.forEach((event)=>{
+            event.addEventListener('click',()=>{
+                if(event.classList.contains("active")){
+                    event.classList.remove("active");
+                }
+                else{
+                    event.classList.add("active");
+                }
+            })
+        })
+  }; 
