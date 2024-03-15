@@ -83,39 +83,6 @@ h2 #updated{
 	color: #ccc; 
 }
 
-.flex{
-display: flex;
-flex-wrap: wrap;
-}
-.flex div{
-padding: 1.5em; 
-}
-
-#flex_published, #flex_published li{
-	background-color: #adf7b6;
-	border-top-left-radius: 1em;
-	border-bottom-left-radius: 1em;
-}
-
-#flex_upcoming #flex_upcoming li{
-	background-color: #ffee93;
-	border-top-right-radius: 1em;
-	border-bottom-right-radius: 1em;
-}
-
-#case p, #case li{
-  line-height: 35px;  
-  background: -webkit-repeating-linear-gradient(#ffffff, #ffffff 35px, #F8FFf8 35px, #F8FFf8 70px);
-  -webkit-text-fill-color: visible;
-  -webkit-background-clip: background;
-}
-#case p, #case li{
-  line-height: 35px;  
-  background: -webkit-repeating-linear-gradient(#ffffff, #ffffff 35px, #F8FFf8 35px, #F8FFf8 70px);
-  -webkit-text-fill-color: visible;
-  -webkit-background-clip: background;
-}
-
 a{
 	color: #09f; 
 	text-decoration: none;
@@ -143,6 +110,39 @@ ul#nav li#last::after{
 
 #faq li{
 	margin-bottom: 10px; 
+}
+
+.flex{
+display: flex;
+flex-wrap: wrap;
+}
+.flex div{
+padding: 1.5em; 
+}
+
+#case p, #case li{
+  line-height: 35px;  
+  background: -webkit-repeating-linear-gradient(#ffffff, #ffffff 35px, #F8FFf8 35px, #F8FFf8 70px);
+  -webkit-text-fill-color: visible;
+  -webkit-background-clip: background;
+}
+#case p, #case li{
+  line-height: 35px;  
+  background: -webkit-repeating-linear-gradient(#ffffff, #ffffff 35px, #F8FFf8 35px, #F8FFf8 70px);
+  -webkit-text-fill-color: visible;
+  -webkit-background-clip: background;
+}
+
+#flex_published, #flex_published li{
+	background-color: #adf7b6;
+	border-top-left-radius: 1em;
+	border-bottom-left-radius: 1em;
+}
+
+#flex_upcoming, #flex_upcoming li{
+	background-color: #ffee93;
+	border-top-right-radius: 1em;
+	border-bottom-right-radius: 1em;
 }
 
 #footer{
