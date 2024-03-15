@@ -24,6 +24,9 @@ body{
 	display: none; 
 }
 
+#case p, #case li{
+  line-height: 120%; 
+
 /* NAV ####################################################### */
 
 a{
@@ -191,7 +194,7 @@ padding: 1.5em;
 .faq_question {
         margin-left: 0.4in; 
 	text-indent: -0.4in; 
-	background-color: #eee;
+	background-color: #ccc;
 	border-radius: 0 0 10px 10px; 
         } 
 .faq_answer {
