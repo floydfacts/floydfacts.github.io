@@ -186,10 +186,15 @@ padding: 1.5em;
 	background-color: #fff; 
 }
 .faq:hover{
-            cursor: pointer;
+        cursor: pointer;
         }
+.faq_question {
+        margin-left: 0.2in; 
+	text-indent: -0.2in
+        } 
 .faq_answer {
-            display: none;
+	margin-left: 0.5in; 
+        display: none;
         } 
 .faq.active .faq_answer {
             display: block;
