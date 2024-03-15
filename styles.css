@@ -134,12 +134,14 @@ padding: 1.5em;
 }
 
 #flex_published, #flex_published li{
+	background: none; 
 	background-color: #adf7b6;
 	border-top-left-radius: 1em;
 	border-bottom-left-radius: 1em;
 }
 
 #flex_upcoming, #flex_upcoming li{
+	background: none; 
 	background-color: #ffee93;
 	border-top-right-radius: 1em;
 	border-bottom-right-radius: 1em;
