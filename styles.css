@@ -20,9 +20,17 @@ body{
 	padding: 0;
 }
 
+a{
+	color: #09f; 
+	text-decoration: none;
+	white-space: nowrap; 
+}
+
 .hide{
 	display: none; 
 }
+
+/* HEADER ####################################################### */
 
 #header{
 	background-color: #ecf2ff;
@@ -48,11 +56,15 @@ body{
 	white-space: wrap;
 }
 
+/* CASE ####################################################### */
+
 div#case{
 	padding: 20px;
 	padding-top: 0;
 	max-width: 550px; 
 }
+
+/* HEADINGS ####################################################### */
 
 h1{
 	font-family: righteous;
@@ -83,12 +95,30 @@ h2 #updated{
 	color: #ccc; 
 }
 
-a{
-	color: #09f; 
-	text-decoration: none;
-	white-space: nowrap; 
+/* FOOTER ####################################################### */
+
+#footer{
+	padding: 20px 0% 20px 90px;
+	background-color: #fff5ed;
+	min-width: 400px;
+	border-top-left-radius: 1em;
+	color: #999;
+	background-image: url("/files/logo.png");
+	background-repeat: no-repeat;
+	background-size: 73px 150px;
+}
+#footer ul#nav li{
+	display: inline;
+	color: #E7C7A7; 
+}
+#footer a{
+	color: #ffb347;
+}
+#footer p{
+	max-width: 550px; 
 }
 
+/* NAV ####################################################### */
 ul#nav{
 	list-style-type: none;
 	padding: 0; 
@@ -108,18 +138,7 @@ ul#nav li#last::after{
 	content: ""; 
 }
 
-#faq li{
-	margin-bottom: 10px; 
-}
-
-.flex{
-display: flex;
-flex-wrap: wrap;
-}
-.flex div{
-padding: 1.5em; 
-}
-
+/* ALTERNATIVE PARAGRAPH BG COLOR ####################################################### */
 #case p, #case li{
   line-height: 35px;  
   background: -webkit-repeating-linear-gradient(#ffffff, #ffffff 35px, #F8FFf8 35px, #F8FFf8 70px);
@@ -147,23 +166,24 @@ padding: 1.5em;
 	border-bottom-right-radius: 1em;
 }
 
-#footer{
-	padding: 20px 0% 20px 90px;
-	background-color: #fff5ed;
-	min-width: 400px;
-	border-top-left-radius: 1em;
-	color: #999;
-	background-image: url("/files/logo.png");
-	background-repeat: no-repeat;
-	background-size: 73px 150px;
+/* FLEX ####################################################### */
+.flex{
+display: flex;
+flex-wrap: wrap;
 }
-#footer ul#nav li{
-	display: inline;
-	color: #E7C7A7; 
+.flex div{
+padding: 1.5em; 
 }
-#footer a{
-	color: #ffb347;
-}
-#footer p{
-	max-width: 550px; 
-}
+
+/* FAQ ####################################################### */
+
+.faq:hover{
+            cursor: pointer;
+        }
+        .faq_answer {
+            display: none;
+        } 
+        .faq.active .faq_answer {
+            display: block;
+        }
+
