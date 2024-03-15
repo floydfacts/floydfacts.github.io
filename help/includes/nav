@@ -1,1 +1,5 @@
-
+<ul id="nav_help">
+<li><a href="/help/resources">Resources</a></li>
+<li><a href="/help/dangers">Dangers</a></li>
+<li id="last"><a href="/help/disclosure.html">Disclosure</a></li>
+</ul>
