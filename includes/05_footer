@@ -1,6 +1,6 @@
 </div><!-- case closed -->
 <div id="footer">
-<div w3-include-html="04_nav"></div>
+<div w3-include-html="includes/04_nav"></div>
 <p>My name is R. Floyd Lindquist. I am an independent scholar and researcher, currently in midwestern United States.</p>
 
 <p>Several <a href="paper.html">pieces of paper</a> prove that I have read various books, attended various lectures, and passed various tests - some clinical, others theoretical. The <a href="about">about</a> page will have more.
