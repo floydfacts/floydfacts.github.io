@@ -205,4 +205,7 @@ padding: 1.5em;
 .faq.active .faq_answer {
             display: block;
         }
+.faq_answer p{
+	font-weight: bold; 
+        } 
 
