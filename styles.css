@@ -103,9 +103,9 @@ padding: 1.5em;
 	border-bottom-right-radius: 1em;
 }
 
-p {
-  line-height: 15px;  
-  background: -webkit-repeating-linear-gradient(red, red 15px, blue 15px, blue 30px);
+p, li{
+  line-height: 25px;  
+  background: -webkit-repeating-linear-gradient(red, red 25px, blue 25px, blue 50px);
 
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
