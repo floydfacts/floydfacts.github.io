@@ -1,11 +1,11 @@
 @font-face {
   font-family: comfortaa;
-  src: url(files/comfortaa.ttf); 
+  src: url(/files/comfortaa.ttf); 
 }
 
 @font-face {
   font-family: josefin;
-  src: url(files/righteous.ttf);
+  src: url(/files/righteous.ttf);
 }
 
 html{
@@ -31,7 +31,7 @@ body{
 	padding-left: 150px; 
 	min-height: 250px; 
 	border-bottom-left-radius: 1em;
-	background-image: url("files/logo.png");
+	background-image: url("/files/logo.png");
 	background-repeat: no-repeat;
 	background-size: 122px 250px;
 }
@@ -153,6 +153,9 @@ padding: 1.5em;
 	min-width: 400px;
 	border-top-left-radius: 1em;
 	color: #999;
+	background-image: url("/files/logo.png");
+	background-repeat: no-repeat;
+	background-size: 73px 150px;
 }
 #footer ul#nav li{
 	display: inline;
