@@ -20,14 +20,35 @@ body{
 	padding: 0;
 }
 
+.hide{
+	display: none; 
+}
+
+/* NAV ####################################################### */
+
 a{
 	color: #09f; 
 	text-decoration: none;
 	white-space: nowrap; 
 }
 
-.hide{
-	display: none; 
+ul#nav{
+	list-style-type: none;
+	padding: 0; 
+	margin: 0; 
+}
+
+ul#nav li{
+	display: inline;
+	color: #A7C7E7; 
+}
+
+ul#nav li::after{
+	content: " | "; 
+}
+
+ul#nav li#last::after{
+	content: ""; 
 }
 
 /* HEADER ####################################################### */
@@ -116,26 +137,6 @@ h2 #updated{
 }
 #footer p{
 	max-width: 550px; 
-}
-
-/* NAV ####################################################### */
-ul#nav{
-	list-style-type: none;
-	padding: 0; 
-	margin: 0; 
-}
-
-ul#nav li{
-	display: inline;
-	color: #A7C7E7; 
-}
-
-ul#nav li::after{
-	content: " | "; 
-}
-
-ul#nav li#last::after{
-	content: ""; 
 }
 
 /* ALTERNATIVE PARAGRAPH BG COLOR ####################################################### */
