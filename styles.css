@@ -180,14 +180,16 @@ padding: 1.5em;
 }
 
 /* FAQ ####################################################### */
-
+.faq p{
+	background-color: #fff; 
+}
 .faq:hover{
             cursor: pointer;
         }
-        .faq_answer {
+.faq_answer {
             display: none;
         } 
-        .faq.active .faq_answer {
+.faq.active .faq_answer {
             display: block;
         }
 
