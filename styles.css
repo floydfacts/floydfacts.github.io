@@ -105,7 +105,7 @@ padding: 1.5em;
 
 p, li{
   line-height: 25px;  
-  background: -webkit-repeating-linear-gradient(red, red 25px, blue 25px, blue 50px);
+  background: -webkit-repeating-linear-gradient(#000, #000 25px, #222 25px, #222 50px);
 
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
