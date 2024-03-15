@@ -200,7 +200,8 @@ padding: 1.5em;
 	font-weight: bold; 
         } 
 .faq_answer {
-	margin-left: 0.5in; 
+	margin-left: 0.5in;
+	text-indent: -0.5in;
         display: none;
         } 
 .faq.active .faq_answer {
