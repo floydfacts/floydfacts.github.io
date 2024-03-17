@@ -24,6 +24,10 @@ body{
 	display: none; 
 }
 
+.secret{
+	visibility: hidden; 
+}
+
 #case p, #case li{
   line-height: 1.6;
 }
