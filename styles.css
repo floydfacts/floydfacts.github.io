@@ -70,7 +70,7 @@ ul#nav li#last::after{
 	padding-left: 150px; 
 	min-height: 250px; 
 	border-bottom-left-radius: 1em;
-	background-image: url("/files/logo.png");
+	background-image: url("/files/img/logo.png");
 	background-repeat: no-repeat;
 	background-size: 122px 250px;
 }
@@ -134,7 +134,7 @@ h2 #updated{
 	min-width: 400px;
 	border-top-left-radius: 1em;
 	color: #999;
-	background-image: url("/files/logo.png");
+	background-image: url("/files/img/logo.png");
 	background-repeat: no-repeat;
 	background-size: 73px 150px;
 }
