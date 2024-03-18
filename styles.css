@@ -19,6 +19,10 @@ body{
 	margin: 0;
 	padding: 0;
 }
+.dark-mode {
+  background-color: black;
+  color: white;
+}
 
 .hide{
 	display: none; 
