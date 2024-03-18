@@ -13,7 +13,7 @@ a{color: #09f;text-decoration: none;white-space: nowrap;}
 ul#nav{list-style-type: none;padding: 0;margin: 0;}
 ul#nav li{display: inline;}
 ul#nav li a{color: #97a7c7;}
-ul#nav li a.feature{color: #A7C7E7;}
+ul#nav li a.feature{font-weight:bold}
 ul#nav li::after{content: " | "; }
 ul#nav li#last::after{content: "";}
 
@@ -37,9 +37,8 @@ h2 #updated{font-size: 70%;color: #ccc;}
 /* FOOTER ####################################################### */
 
 #footer{padding: 20px 3% 20px 90px;background-color: #fff5ed;min-width: 400px;border-top-left-radius: 1em;color: #999;background-image: url("/files/img/logo.png");background-repeat: no-repeat;background-size: 73px 150px;}
-#footer ul#nav li{display: inline; color: #E7C7A7;}
-#footer ul#nav li.feature{color: #ffb347;}
-#footer a{color: #c7a787;}
+#footer a{color: #c7a787;text-decoration: underline;}
+#footer ul#nav li a.feature{font-weight:bold;text-decoration: none;}
 #footer p{max-width: 550px;}
 
 /* FLEX ####################################################### */
