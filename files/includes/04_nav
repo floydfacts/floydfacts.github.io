@@ -1,6 +1,5 @@
 <ul id="nav">
 <li><a class="feature" href="/help">Help</a></li>
-<li><a class="feature" href="/consent">Consent</a></li>
 <li><a href="/">Home</a></li>
 <li><a href="/about">About</a></li>
 <li id="last"><a href="/contact">Contact</a></li>
