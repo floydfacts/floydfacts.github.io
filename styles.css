@@ -1,11 +1,11 @@
  @font-face {
   font-family: comfortaa; 
-  src: url(/files/comfortaa.ttf); 
+  src: url(/files/fonts/comfortaa.ttf); 
 }
 
 @font-face {
   font-family: josefin;
-  src: url(/files/righteous.ttf);
+  src: url(/files/fonts/righteous.ttf);
 }
 
 html, body{
