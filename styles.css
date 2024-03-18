@@ -50,6 +50,9 @@ ul#nav{
 
 ul#nav li{
 	display: inline;
+	color: #97a7c7; 
+}
+ul#nav li.feature{
 	color: #A7C7E7; 
 }
 
@@ -142,8 +145,11 @@ h2 #updated{
 	display: inline;
 	color: #E7C7A7; 
 }
-#footer a{
+#footer ul#nav li.feature{
 	color: #ffb347;
+}
+#footer a{
+	color: #c7a787; 
 }
 #footer p{
 	max-width: 550px; 
