@@ -1,6 +1,5 @@
 <ul id="nav">
 <li><a href="/help">Help</a></li>
 <li><a href="/about">About</a></li>
-<li><a href="/help/disclosure.html">Disclosure</a></li>
-<li id="last"><span id="dark" onclick="dark(); return false">࿊</span></li>
+<li id="last"><a href="/help/disclosure.html">Disclosure</a></li>
 </ul>
