@@ -37,8 +37,10 @@ h2 #updated{font-size: 70%;color: #ccc;}
 /* FOOTER ####################################################### */
 
 #footer{padding: 20px 3% 20px 90px;background-color: #fff5ed;min-width: 400px;border-top-left-radius: 1em;color: #999;background-image: url("/files/img/logo.png");background-repeat: no-repeat;background-size: 73px 150px;}
-#footer a{color: #c7a787;text-decoration: underline;}
-#footer ul#nav li a.feature{font-weight:bold;text-decoration: none;}
+#footer a, #footer ul#nav a {color: #c7a787;}
+#footer a{text-decoration: underline;}
+#footer ul#nav a{text-decoration: none;}
+#footer ul#nav a.feature{font-weight:bold;}
 #footer p{max-width: 550px;}
 
 /* FLEX ####################################################### */
