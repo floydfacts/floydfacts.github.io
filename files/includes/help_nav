@@ -1,8 +1,7 @@
 <ul id="nav">
 <span id="help_nav">
 <li><a class="feature" href="/help/">Consent</a></li>
+<li><a href="/help/advice">Advice</a></li>
 <li><a href="/help/resources">Resources</a></li>
-<li><a href="/help/dangers">Dangers</a></li>
-<li id="last"><a href="/help/archive">Archive</a></li>
 </span>
 </ul>
