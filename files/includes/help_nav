@@ -2,6 +2,6 @@
 <span id="help_nav">
 <li><a class="feature" href="/help/">Consent</a></li>
 <li><a href="/help/advice">Advice</a></li>
-<li><a id="last" href="/help/resources">Resources</a></li>
+<li id="last"><a href="/help/resources">Resources</a></li>
 </span>
 </ul>
