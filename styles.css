@@ -50,7 +50,6 @@ h2 #updated{font-size: 70%;color: #ccc;}
 /* HELP ####################################################### */
 
 #flex_published, #flex_upcoming{max-width: 400px;}
-
 #flex_published, #flex_published li{background-color: #adf7b6;border-top-left-radius: 1em;border-bottom-left-radius: 1em;}
 #flex_upcoming, #flex_upcoming li{background-color: #ffee93;border-top-right-radius: 1em;border-bottom-right-radius: 1em;}
 
