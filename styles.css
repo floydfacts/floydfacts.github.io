@@ -53,7 +53,7 @@ h2 #updated{font-size: 70%;color: #ccc;}
 #flex_published, #flex_published li{background-color: #adf7b6;border-top-left-radius: 1em;border-bottom-left-radius: 1em;}
 #flex_upcoming, #flex_upcoming li{background-color: #ffee93;border-top-right-radius: 1em;border-bottom-right-radius: 1em;}
 
-#nav #help_nav {position: relative; bottom: 20px; padding-bottom: 20px;}
+#nav #help_nav {position: relative; bottom: 10px; padding-bottom: 20px;}
 #nav #help_nav a{color: #56AE57;}
 
 /* HELP > FAQ ####################################################### */
