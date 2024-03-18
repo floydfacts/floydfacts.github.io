@@ -8,16 +8,12 @@
   src: url(/files/righteous.ttf);
 }
 
-html{
+html, body{
 	background-color: #fff; 
 	margin: 0;
 	padding: 0;
-}
-
-body{
 	font-family: comfortaa;
-	margin: 0;
-	padding: 0;
+	height: 100%;
 }
 
 /*
