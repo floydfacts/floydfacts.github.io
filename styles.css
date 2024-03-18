@@ -3,6 +3,8 @@
 
 html, body{background-color: #fff;margin: 0;padding: 0;font-family: comfortaa;height: 100%;}
 
+#intro{text-align: center; margin: 0 auto;}
+
 .hide{display: none;}
 
 #case p, #case li{line-height: 1.6;}
@@ -19,7 +21,7 @@ ul#nav li#last::after{content: "";}
 
 /* HEADER ####################################################### */
 
-#header{background-color: #ecf2ff;padding: 20px;padding-top: 0px;padding-left: 150px; min-height: 250px; border-bottom-left-radius: 1em;/*background-image: url("/files/img/logo.png");background-repeat: no-repeat;background-size: 122px 250px;*/}
+#header{background-color: #ecf2ff;padding: 20px;padding-top: 0px;padding-left: 150px; min-height: 250px; border-bottom-left-radius: 1em;background-image: url("/files/img/logo.png");background-repeat: no-repeat;background-size: 122px 250px;}
 
 /*#header #logo_click{position: absolute; top: 0; left: 0; width: 122px; height: 250px;}*/
 
