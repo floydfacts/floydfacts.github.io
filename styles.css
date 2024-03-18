@@ -1,234 +1,62 @@
- @font-face {
-  font-family: comfortaa; 
-  src: url(/files/fonts/comfortaa.ttf); 
-}
+@font-face {font-family: comfortaa; src: url(/files/fonts/comfortaa.ttf);}
+@font-face {font-family: josefin; src: url(/files/fonts/righteous.ttf);}
 
-@font-face {
-  font-family: josefin;
-  src: url(/files/fonts/righteous.ttf);
-}
+html, body{background-color: #fff;margin: 0;padding: 0;font-family: comfortaa;height: 100%;}
 
-html, body{
-	background-color: #fff; 
-	margin: 0;
-	padding: 0;
-	font-family: comfortaa;
-	height: 100%;
-}
+.hide{display: none;}
 
-/*
-.dark-mode {
-  background-color: black;
-  color: white;
-}
-*/
+#case p, #case li{line-height: 1.6;}
 
-.hide{
-	display: none; 
-}
-
-.secret{
-	visibility: hidden; 
-}
-
-#case p, #case li{
-  line-height: 1.6;
-}
 /* NAV ####################################################### */
 
-a{
-	color: #09f; 
-	text-decoration: none;
-	white-space: nowrap; 
-}
-
-ul#nav{
-	list-style-type: none;
-	padding: 0; 
-	margin: 0; 
-}
-
-ul#nav li{
-	display: inline;
-	color: #97a7c7; 
-}
-ul#nav li.feature{
-	color: #A7C7E7; 
-}
-
-ul#nav li::after{
-	content: " | "; 
-}
-
-ul#nav li#last::after{
-	content: ""; 
-}
+a{color: #09f;text-decoration: none;white-space: nowrap;}
+ul#nav{list-style-type: none;padding: 0;margin: 0;}
+ul#nav li{display: inline;}
+ul#nav li a{color: #97a7c7;}
+ul#nav li a.feature{color: #A7C7E7;}
+ul#nav li::after{content: " | "; }
+ul#nav li#last::after{content: "";}
 
 /* HEADER ####################################################### */
 
-#header{
-	background-color: #ecf2ff;
-	padding: 20px;
-	padding-top: 0px;
-	padding-left: 150px; 
-	min-height: 250px; 
-	border-bottom-left-radius: 1em;
-	background-image: url("/files/img/logo.png");
-	background-repeat: no-repeat;
-	background-size: 122px 250px;
-}
-
-#header #logo_click{
-	position: absolute; 
-	top: 0; 
-	left: 0;
-	width: 122px;
-	height: 250px; 
-}
-
-#header a{
-	white-space: wrap;
-}
+#header{background-color: #ecf2ff;padding: 20px;padding-top: 0px;padding-left: 150px; min-height: 250px; border-bottom-left-radius: 1em;background-image: url("/files/img/logo.png");background-repeat: no-repeat;background-size: 122px 250px;}
+#header #logo_click{position: absolute; top: 0; left: 0; width: 122px; height: 250px;}
 
 /* CASE ####################################################### */
 
-div#case{
-	padding: 20px;
-	padding-top: 0;
-	max-width: 550px; 
-}
+div#case{padding: 20px;padding-top: 0;max-width: 550px;}
 
 /* HEADINGS ####################################################### */
 
-h1{
-	font-family: righteous;
-	padding-top: 55px;
-	color: #213459; 
-}
-
-h1 span{
-	display: block;
-	font-size: 60%;
-	font-style: italic;
-	color: #213459;
-	font-family: comfortaa;
-}
-
-h1 span span{
-	display: block;
-	font-size: 80%;
-	font-style: normal; 
-}
-
-h2{
-	font-family: comfortaa;
-	color: #56AE57; 
-}
-h2 #updated{
-	font-size: 70%;
-	color: #ccc; 
-}
+h1{font-family: righteous;padding-top: 55px;color: #213459;}
+h1 span{display: block;font-size: 60%;font-style: italic;color: #213459;font-family: comfortaa;}
+h1 span span{display: block;font-size: 80%;font-style: normal;}
+h2{font-family: color: #56AE57;}
+h2 #updated{font-size: 70%;color: #ccc;}
 
 /* FOOTER ####################################################### */
 
-#footer{
-	padding: 20px 3% 20px 90px;
-	background-color: #fff5ed;
-	min-width: 400px;
-	border-top-left-radius: 1em;
-	color: #999;
-	background-image: url("/files/img/logo.png");
-	background-repeat: no-repeat;
-	background-size: 73px 150px;
-}
-#footer ul#nav li{
-	display: inline;
-	color: #E7C7A7; 
-}
-#footer ul#nav li.feature{
-	color: #ffb347;
-}
-#footer a{
-	color: #c7a787; 
-}
-#footer p{
-	max-width: 550px; 
-}
-
-/* ALTERNATIVE PARAGRAPH BG COLOR ####################################################### */
-/* can't figure out exclusions! 
-#case p, #case li{
-  line-height: 35px;  
-  background: -webkit-repeating-linear-gradient(#ffffff, #ffffff 35px, #F8FFf8 35px, #F8FFf8 70px);
-  -webkit-text-fill-color: visible;
-  -webkit-background-clip: background;
-}
-#case p, #case li{
-  line-height: 35px;  
-  background: -webkit-repeating-linear-gradient(#ffffff, #ffffff 35px, #F8FFf8 35px, #F8FFf8 70px);
-  -webkit-text-fill-color: visible;
-  -webkit-background-clip: background;
-}
-*/
-
-/* exclude P alternating line colors */
-#flex_published, #flex_published li, #flex_upcoming, #flex_upcoming li, .faq p{
-	background: none; 
-}
+#footer{padding: 20px 3% 20px 90px;background-color: #fff5ed;min-width: 400px;border-top-left-radius: 1em;color: #999;background-image: url("/files/img/logo.png");background-repeat: no-repeat;background-size: 73px 150px;}
+#footer ul#nav li{display: inline; color: #E7C7A7;}
+#footer ul#nav li.feature{color: #ffb347;}
+#footer a{color: #c7a787;}
+#footer p{max-width: 550px;}
 
 /* FLEX ####################################################### */
-.flex{
-display: flex;
-flex-wrap: wrap;
-}
-.flex div{
-padding: 1.5em; 
-}
-
-#flex_published, #flex_published li{
-	background-color: #adf7b6;
-	border-top-left-radius: 1em;
-	border-bottom-left-radius: 1em;
-}
-
-#flex_upcoming, #flex_upcoming li{
-	background-color: #ffee93;
-	border-top-right-radius: 1em;
-	border-bottom-right-radius: 1em;
-}
+.flex{display: flex; flex-wrap: wrap;}
+.flex div{padding: 1.5em;}
+#flex_published, #flex_published li{background-color: #adf7b6;border-top-left-radius: 1em;border-bottom-left-radius: 1em;}
+#flex_upcoming, #flex_upcoming li{background-color: #ffee93;border-top-right-radius: 1em;border-bottom-right-radius: 1em;}
 
 /* FAQ ####################################################### */
-.faq p{
-	background-color: #fff; 
-}
-.faq:hover{
-        cursor: pointer;
-        }
-.faq_question p{
-        background-color: #eee;
-	padding-left: 0.5in; 
-	text-indent: -0.4in;
-	border: 2px solid #eee;
-	border-radius: 0 0 10px 10px;  
-	font-weight: bold; 
-        } 
-.faq_answer {
-	margin-left: 0.7in;
-	text-indent: -0.5in;
-        display: none;
-        } 
-.faq.active .faq_answer {
-            display: block;
-        }
+.faq p{background-color: #fff;}
+.faq:hover{cursor: pointer;}
+.faq_question p{background-color: #eee;padding-left: 0.5in; text-indent: -0.4in;border: 2px solid #eee;border-radius: 0 0 10px 10px;  font-weight: bold;} 
+.faq_answer {margin-left: 0.7in;text-indent: -0.5in;display: none;} 
+.faq.active .faq_answer {display: block;}
 
 /* PAGE - HELP ###################################################### */
 
-#nav.nav_help {
-	position: relative; 
-	bottom: 20px; 
-	padding-bottom: 20px; 
-}
+#nav.nav_help {position: relative; bottom: 20px; padding-bottom: 20px;}
 
-#nav.nav_help a{
-	color: #56AE57; 
-}
+#nav #nav_help a{color: #56AE57;}
