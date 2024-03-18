@@ -44,7 +44,7 @@ h2 #updated{font-size: 70%;color: #ccc;}
 #footer a{text-decoration: underline;}
 #footer ul#nav a{text-decoration: none;}
 #footer ul#nav a.feature{font-weight:bold;}
-#footer p{max-width: 550px;}
+#footer p{max-width: 550px; line-height: 2;}
 
 /* FLEX ####################################################### */
 .flex{display: flex; flex-wrap: wrap;}
