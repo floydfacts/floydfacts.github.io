@@ -1,6 +1,7 @@
 <ul id="nav">
-<li><a href="/index.html">Home</a></li>
-<li><a href="/help">Help</a></li>
+<li><a class="feature" href="/help">Help</a></li>
+<li><a class="feature" href="/disclosure">Disclosure</a></li>
+<li><a href="/">Home</a></li>
 <li><a href="/about">About</a></li>
-<li id="last"><a href="/help/disclosure.html">Disclosure</a></li>
+<li id="last"><a href="/contact">Contact</a></li>
 </ul>
