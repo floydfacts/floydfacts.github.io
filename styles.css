@@ -16,7 +16,7 @@ ul#nav{list-style-type: none;padding: 0;margin: 0;}
 ul#nav li{display: inline;}
 ul#nav li a{color: #97a7c7;}
 ul#nav li a.feature{font-weight:bold}
-ul#nav li::after{content: " | "; }
+ul#nav li::after{content: " | "; } 
 ul#nav li#last::after{content: "";}
 
 /* HEADER ####################################################### */
