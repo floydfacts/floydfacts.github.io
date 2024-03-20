@@ -59,7 +59,7 @@ h2 #updated{font-size: 70%;color: #ccc;}
 #nav #help_nav {position: relative; bottom: 10px; padding-bottom: 20px;}
 #nav #help_nav a{color: #56AE57;}
 
-p.compelled::before{content: "Government-compelled Speech:"; color: #c00; }
+p.compelled::before{content: "Government-compelled Speech: "; color: #c00; }
 
 /* HELP > FAQ ####################################################### */
 .faq p{background-color: #fff; line-height: 1}
