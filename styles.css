@@ -75,7 +75,7 @@ a {
 #help_nav {
     padding: 20px 0 10px 0;
 }
-#help_nav *{
+#help_nav a{
     color: #56AE57;
 }
 /* HEADER ####################################################### */
