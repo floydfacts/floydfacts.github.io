@@ -14,7 +14,7 @@ body{
 }
 
 /* make the text align left, despite body centered */
-div.inner_center{text-align:left;}
+div#inner_center{text-align:left;}
 
 body#intro{text-align: center; margin: 0 auto;margin-top:5%; }
 
