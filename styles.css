@@ -3,7 +3,22 @@
 
 html, body{background-color: #fff;margin: 0;padding: 0;font-family: comfortaa;height: 100%;}
 
+body{
+     padding:3%;
+     padding-bottom:500px; 
+     max-width:600px;
+     letter-spacing:.2rem;
+     text-align:center; 
+     margin:auto; 
+     width:100%; 
+}
+
+/* make the text align left, despite body centered */
+div.inner_center{text-align:left;}
+
 body#intro{text-align: center; margin: 0 auto;margin-top:5%; }
+
+
 
 .hide{display: none;}
 

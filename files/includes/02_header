@@ -1,6 +1,7 @@
 <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
+<div id="inner_center">
 <div id="header">
 <a id="logo_click" href="https://floydfacts.github.io"></a>
 <h1>Floyd Facts<span class="hide">:</span> <span>Evidenced-based Help for Conservative Christian Husbands and Dads<span class="hide">:</span> <span>Expert Info About Resilience, Trauma, Loss, Health, Nutrition, U.S. Law, and More</span></span></h1>
