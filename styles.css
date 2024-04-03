@@ -53,7 +53,6 @@ body#intro {
 a {
     color: #09f;
     text-decoration: none;
-    white-space: nowrap;
 }
 .nav {
     list-style-type: none;
