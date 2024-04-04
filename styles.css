@@ -16,12 +16,14 @@ html, body {
 body {
     padding: 3%;
     padding-bottom: 500px;
-    max-width: 700px;
     letter-spacing: .2rem;
     text-align: center;
     margin: auto;
     width: 100%;
 }
+
+body, header, footer{max-width: 700px;}
+
 /* make the text align left, despite body centered */
 div#inner_center {
     text-align: left;
@@ -92,7 +94,6 @@ header {
     background-size: 122px 250px;
 	background-position: top 10px left 10px;
 }
-/*#header #logo_click{position: absolute; top: 0; left: 0; width: 122px; height: 250px;}*/
 
 /* CASE ####################################################### */
 
@@ -138,7 +139,6 @@ footer {
     background-repeat: no-repeat;
     background-size: 73px 150px;
 	background-position: top 10px left 10px;
-    width: 100%;
 }
 footer a, footer ul.nav a {
     color: #c7a787;
