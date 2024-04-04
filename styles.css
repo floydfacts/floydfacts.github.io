@@ -210,7 +210,7 @@ p.compelled::before {
   transition: 0.4s;
 }
 
-.accordion h3{
+h3.accordion {
 	padding: 5px 0 5px 5px; 
 }
 
