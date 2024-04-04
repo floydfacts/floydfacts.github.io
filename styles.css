@@ -53,7 +53,7 @@ body#intro {
     display: none;
 }
 
-p.quote{
+#inner_center p.quote, p.quote{
 	line-height: 1; 
 	margin-left: 0.5in;
 	text-indent:0;
