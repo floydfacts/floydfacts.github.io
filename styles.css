@@ -195,7 +195,6 @@ footer p {
 }
 p.compelled::before {
     content: "Government-compelled Speech: ";
-    color: #ccc;
 }
 
 /* HELP > collapsible ####################################################### */
@@ -227,7 +226,7 @@ h3.accordion, h4.accordion {
 }
 
 h3#compelled{
-	  background-color: #FF5B79;
+	  background-color: #ccc;
 }
 
 .active, .accordion:hover {
