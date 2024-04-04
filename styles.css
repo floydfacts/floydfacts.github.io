@@ -211,7 +211,8 @@ p.compelled::before {
 }
 
 h3.accordion {
-	padding: 5px 0 5px 5px; 
+	padding: 8px 0 8px 8px;
+	margin:0; 
 }
 
 .active, .accordion:hover {
