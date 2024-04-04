@@ -89,7 +89,7 @@ a {
 /* HEADER ####################################################### */
 
 header {
-    background-color: #ecf2ff;
+    background-color: #acf;
     padding: 0 20px 20px 150px;
     min-height: 250px;
     border-bottom-right-radius: 10em;
@@ -210,7 +210,7 @@ p.compelled::before {
 /* ACCORDIAN ############################################################### */
 
 .accordion {
-  background-color: #acf;
+  background-color: #afa;
   color: #444;
   cursor: pointer;
   border: none;
@@ -229,7 +229,7 @@ h3#compelled{
 }
 
 .active, .accordion:hover {
-  background-color: #8ac;
+  background-color: #6c6;
 }
 
 .accordion:after {
