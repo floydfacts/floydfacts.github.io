@@ -138,6 +138,7 @@ footer {
     background-repeat: no-repeat;
     background-size: 73px 150px;
 	background-position: top 10px left 10px;
+    width: 100%;
 }
 footer a, footer ul.nav a {
     color: #c7a787;
