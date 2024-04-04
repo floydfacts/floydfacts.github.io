@@ -188,10 +188,12 @@ footer p {
     border-bottom-right-radius: 1em;
 }
 
+p.compelled {
+	text-indent: 0;
+}
 p.compelled::before {
     content: "Government-compelled Speech: ";
     color: #c00;
-	text-indent: 0;
 }
 
 /* HELP > collapsible ####################################################### */
