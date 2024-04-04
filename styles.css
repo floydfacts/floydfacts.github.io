@@ -188,7 +188,7 @@ p.compelled::before {
 /* HELP > FAQ ####################################################### */
 .faq p {
     background-color: #fff;
-    line-height: 1
+    line-height: 1;
 }
 .faq:hover {
     cursor: pointer;
