@@ -70,7 +70,7 @@ a {
     display: inline;
 }
 .nav li a {
-    color: #213459;
+    color: #06f;
 }
 /*ul.nav li a.feature{font-weight:bold}*/
 .nav li::after {
