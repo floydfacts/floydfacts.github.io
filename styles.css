@@ -32,8 +32,11 @@ div#inner_center {
     line-height: 1.6;
 }
 #inner_center p, #inner_center h2, #inner_center h3, #inner_center h4, #inner_center h5 {
-    text-indent:0.5in;
 	padding: 0 25px 0 25px; 
+}
+
+#inner_center p{
+	text-indent:0.5in;
 }
 
 
