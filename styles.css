@@ -31,12 +31,12 @@ div#inner_center {
 #inner_center p, #inner_center li {
     line-height: 1.6;
 }
-#inner_padded{
+#inner_center p{
+    text-indent:0.5in;
 	padding: 0 25px 0 25px; 
 }
-#inner_padded p{
-	text-indent:0.5in; 
-}
+
+
 header, footer{
 	padding: 0 25px; 
 }
@@ -191,5 +191,13 @@ p.compelled::before {
   display: none;
   overflow: hidden;
 }
+
+.collapsible{cursor: pointer;}
+
+
+
+
+
+
 
 
