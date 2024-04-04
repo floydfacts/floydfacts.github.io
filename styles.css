@@ -188,8 +188,8 @@ footer p {
     border-bottom-right-radius: 1em;
 }
 
-p.compelled {
-	text-indent: -0.5in;
+#inner_center p.compelled {
+	text-indent: 0;
 }
 p.compelled::before {
     content: "Government-compelled Speech: ";
