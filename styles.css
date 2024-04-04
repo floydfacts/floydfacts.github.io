@@ -227,6 +227,19 @@ p.compelled::before {
   transition: 0.4s;
 }
 
+h4.accordion {
+  background-color: #98B3F1;
+  color: #444;
+}
+
+.active, .accordion:hover {
+  background-color: #afa;
+}
+
+h4.active, h4.accordion:hover {
+  background-color: #ADBAFf;
+}
+
 h3.accordion, h4.accordion {
 	padding: 20px;
 	margin-bottom:10px; 
@@ -234,10 +247,6 @@ h3.accordion, h4.accordion {
 
 h3#compelled{
 	  background-color: #ccc;
-}
-
-.active, .accordion:hover {
-  background-color: #afa;
 }
 
 .accordion:after {
