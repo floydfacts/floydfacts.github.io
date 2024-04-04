@@ -221,8 +221,12 @@ h3.accordion, h4.accordion {
 	margin-bottom:10px; 
 }
 
+h3#compelled{
+	  background-color: #FF5B79;
+}
+
 .active, .accordion:hover {
-  background-color: #8ac;
+  background-color: #FFAAAA;
 }
 
 .accordion:after {
