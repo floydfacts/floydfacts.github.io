@@ -70,7 +70,7 @@ a {
     display: inline;
 }
 .nav li a {
-    color: #97a7c7;
+    color: #213459;
 }
 /*ul.nav li a.feature{font-weight:bold}*/
 .nav li::after {
@@ -122,7 +122,6 @@ h1 span {
     display: block;
     font-size: 60%;
     font-style: italic;
-    color: #213459;
     font-family: comfortaa;
 }
 h1 span span {
@@ -150,7 +149,9 @@ footer {
 	background-position: top 10px left 10px;
 }
 footer a, footer ul.nav a {
-    color: #c7a787;
+    color: #FBA924;
+	font-variant:small-caps; 
+	font-size:1.2em; 
 }
 footer a {
     text-decoration: underline;
@@ -163,6 +164,7 @@ footer ul.nav a.feature {
 }
 footer p {
     line-height: 1.6;
+	color: #C66314; 
 }
 /* FLEX ####################################################### */
 .flex {
