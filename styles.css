@@ -55,7 +55,7 @@ body#intro {
 a {
     color: #09f;
     text-decoration: none;
-    font-size: 100%;
+    font-size: 1em;
 }
 .nav {
     list-style-type: none;
