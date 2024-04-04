@@ -210,7 +210,7 @@ p.compelled::before {
 /* ACCORDIAN ############################################################### */
 
 .accordion {
-  background-color: #afa;
+  background-color: #6c6;
   color: #444;
   cursor: pointer;
   border: none;
@@ -229,7 +229,7 @@ h3#compelled{
 }
 
 .active, .accordion:hover {
-  background-color: #6c6;
+  background-color: #afa;
 }
 
 .accordion:after {
