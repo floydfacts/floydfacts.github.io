@@ -12,6 +12,7 @@ html, body {
     padding: 0;
     font-family: comfortaa;
     height: 100%;
+    overflow: hidden;
 }
 body {
     padding: 3%;
