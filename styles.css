@@ -191,6 +191,7 @@ footer p {
 p.compelled::before {
     content: "Government-compelled Speech: ";
     color: #c00;
+	text-indent: 0;
 }
 
 /* HELP > collapsible ####################################################### */
