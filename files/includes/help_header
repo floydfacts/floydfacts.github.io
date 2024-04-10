@@ -1,0 +1,14 @@
+<div id="help_header">
+	
+<h2>Help</h2>
+<ul id="help_nav" class="nav">
+<li><a href="/help/resources">Counseling</a></li>
+<li><a href="/help/resources">Health</a></li>
+<li><a href="/help/resources">Nutrition</a></li>
+<li><a href="/help/resources">Law</a></li>
+<li class="last"><a href="/help/resources">Loss</a></li>
+<li class="last"><a href="/help/resources">(per each: theoretical framework, resources, consultation)</a></li>
+</ul>
+	
+</div>
+<!--help_header-->

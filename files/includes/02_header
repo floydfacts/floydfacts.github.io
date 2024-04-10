@@ -1,9 +1,26 @@
-<link rel="stylesheet" href="/styles.css">
+	<script language="javascript" src="/scripts.js">
+	</script>
+<link href="/styles.css" rel="stylesheet" type="text/css">
+
+<!--
+
+Those who willingly submit to psychiatry deserve all predictable consequences. Those forced to submit deserve defense, by any means necessary.
+-->
+
+
 </head>
 <body>
+
 <div id="inner_center">
-<div id="header">
-<a id="logo_click" href="https://floydfacts.github.io"></a>
-<h1>Floyd Facts<span class="hide">:</span> <span>Evidenced-based Help for Conservative Christian Husbands and Dads<span class="hide">:</span> <span>Expert Info About Resilience, Trauma, Loss, Health, Nutrition, U.S. Law, and More</span></span></h1>
-<div w3-include-html="/files/includes/04_nav"></div>
-</div><!--header-->
+  <header>
+    <h1>Floyd Facts<span class="hide">:</span><span>Evidenced-based Help for Conservative Christian Husbands and Dads:<br/> Expert Info About Resilience, Trauma, Loss, Health, Nutrition, and U.S. Law</span></h1>
+    <ul class="nav">
+      <li><a class="feature" href="/help">Help</a></li>
+      <li><a href="/about">About</a></li>
+      <li class="last"><a id="contact" class="accordion" href="#">Contact</a>
+<div class="panel" id="contact_paras"><p>The best way to contact me is by email: floydfacts[at]yahoo[dot]com</p>
+<p>If you have my phone number, feel free to leave me a voice message. Include you email because that is most likely how I will respond.</p>
+<p>Typically, I will respond within a few business days.</p></div></li>
+    </ul>
+  </header>
+  <!--header-->
