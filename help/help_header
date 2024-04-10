@@ -6,7 +6,7 @@
 <li><a id="health_link" href="/help/health">Health</a></li>
 <li><a id="nutrition_link" href="/help/nutrition">Nutrition</a></li>
 <li><a id="law_link" href="/help/law">Law</a></li>
-<li><a id="loss_link" class="last"><a href="/help/loss">Loss</a></li>
+<li class="last"><a id="loss_link" href="/help/loss">Loss</a></li>
 </ul>
 	
 </div>
