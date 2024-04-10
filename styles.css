@@ -289,17 +289,17 @@ h3#compelled{
 
 /* sections ############################################################# */
 
-h3#title{
+h3.title{
 	text-align:center;
 }
 
-a#counseling_link{
+a#counseling_link, h3#title.helplink{
 	color:#f09ea7; 
 }
 a#health_link{
 	color:#f6ca94; 
 }
-a#nutrition_link{
+a#nutrition_link, h3.title#nutrition{
 	color:#A4A453; 
 }
 a#law_link{
