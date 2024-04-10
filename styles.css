@@ -228,6 +228,8 @@ p.compelled::before {
   transition: 0.4s;
 }
 
+#faq p{text-indent:0;}
+
 #contact:after, a.accordion, a.accordion:hover{
 	content:none;
 	background-color:transparent; 
