@@ -310,7 +310,21 @@ a#loss_link, h3.title#loss{
 }
 
 
-
+#counseling_section h3{
+	background-color:#f09ea7; 
+}
+#health_section h3{
+	background-color:#f6ca94; 
+}
+#nutrition_section h3{
+	background-color:#6fd46a; 
+}
+#law_section h3{
+	background-color:#D2A7E9; 
+}
+#loss_section h3{
+	background-color:#94C9F1; 
+}
 
 
 
