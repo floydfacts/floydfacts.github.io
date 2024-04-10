@@ -235,7 +235,9 @@ p.compelled::before {
 
 #contact_paras{
 	background-color:#435065;
-	color:#fff
+	color:#fff;
+	padding:0; 
+	text-align: left; 
 }
 
 h4.accordion {
