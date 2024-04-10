@@ -293,19 +293,19 @@ h3.title{
 	text-align:center;
 }
 
-a#counseling_link, h3#title.helplink{
+a#counseling_link, h3.title#counseling{
 	color:#f09ea7; 
 }
-a#health_link{
+a#health_link, h3.title#health{
 	color:#f6ca94; 
 }
 a#nutrition_link, h3.title#nutrition{
 	color:#A4A453; 
 }
-a#law_link{
+a#law_link, h3.title#law{
 	color:#D2A7E9; 
 }
-a#loss_link{
+a#loss_link, h3.title#loss{
 	color:#94C9F1; 
 }
 
