@@ -287,7 +287,11 @@ h3#compelled{
   transition: max-height 0.3s ease-out;
 }
 
+/* sections ############################################################# */
 
+h3#title{
+	text-align:center;
+}
 
 
 
