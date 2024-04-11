@@ -98,6 +98,9 @@ p.accordion::after{
 	content: "";
 }
 
+h3.accordion{
+	padding-right:30px; 
+}
 
 #help_nav {
     padding: 0px 0 10px 0;
