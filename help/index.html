@@ -13,10 +13,29 @@
 Those who willingly submit to psychiatry deserve all predictable consequences. Those forced to submit deserve defense, by any means necessary.
 -->
 
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
 
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+	
+	
 </head>
 <body>
 
+	
+	
 <div id="inner_center">
   <header>
     <h1>Floyd Facts<span class="hide">:</span><span>Evidenced-based Help for Conservative Christian Husbands and Dads:<br/> Expert Info About Resilience, Trauma, Loss, Health, Nutrition, and U.S. Law</span></h1>
@@ -97,26 +116,6 @@ Those who willingly submit to psychiatry deserve all predictable consequences. T
 </footer>
 
 	</div><!--inner_center-->
-	
-	
-
-<script>
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
-  });
-}
-</script>
-	
 	
 </body>
 </html>
