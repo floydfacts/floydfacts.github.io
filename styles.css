@@ -85,6 +85,11 @@ a {
 .nav li.last::after {
     content: "";
 }
+.last p{
+	display:inline; 
+	color:#2a6cff;
+	text-indent:none; 
+}
 
 
 #help_nav {
