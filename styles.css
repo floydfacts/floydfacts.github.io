@@ -283,7 +283,7 @@ h3.accordion, h4.accordion {
 	margin-bottom:10px; 
 }
 
-h3#compelled{
+h3.compelled_heading{
 	  background-color: #ccc;
 }
 
