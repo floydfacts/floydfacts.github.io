@@ -255,7 +255,7 @@ p.compelled::before {
 	color:#fff;
 	padding:0; 
 	text-align: left;
-	border-bottom-right-radius: 25px; 
+	border-radius: 25px; 
 }
 #contact_paras p{
 	text-indent:0; 
