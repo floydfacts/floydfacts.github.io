@@ -155,6 +155,9 @@ footer {
     background-size: 73px 150px;
 	background-position: top 10px left 10px;
 }
+footer h3{
+	display:none; 
+}
 footer a, footer ul.nav a {
     color: #FBA924;
 	font-variant:small-caps; 
