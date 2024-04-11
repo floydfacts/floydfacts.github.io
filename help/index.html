@@ -13,7 +13,25 @@
 Those who willingly submit to psychiatry deserve all predictable consequences. Those forced to submit deserve defense, by any means necessary.
 -->
 
-<script>includeHTML();</script> 
+<script>includeHTML();</script>
+	
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+	
 	
 </head>
 <body>
@@ -88,24 +106,6 @@ Those who willingly submit to psychiatry deserve all predictable consequences. T
 	
 
 <!-- FOOTER ############################################################################# -->
-  
-<script>
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
-  });
-}
-</script>
-	
 
 	
 
