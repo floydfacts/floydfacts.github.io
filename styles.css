@@ -289,6 +289,9 @@ h3.accordion, h4.accordion {
 h3.compelled_heading{
 	  background-color: #ccc;
 }
+h3.compelled_heading:hover{
+	  background-color: #ccc;
+}
 
 .accordion:after {
   content: '+';
