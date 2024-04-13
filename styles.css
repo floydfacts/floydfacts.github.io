@@ -31,9 +31,9 @@ div#inner_center {
 #inner_center p, #inner_center li {
     line-height: 1.6;
 }
-#inner_center p, #inner_center h2, #inner_center h3, #inner_center h4, #inner_center h5 {
+#inner_center p, #inner_center h2, #inner_center h3, #inner_center h4, #inner_center h5, h3.accordion{
 	padding-left: 25px; 
-	padding-right: 25px; 
+	padding-right: 35px; 
 }
 
 #inner_center p{
