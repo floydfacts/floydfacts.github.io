@@ -21,7 +21,7 @@ body {
     width: 100%;
 }
 
-body, header, footer{max-width: 700px;}
+body, header, footer{max-width: 720px;}
 
 /* make the text align left, despite body centered */
 div#inner_center {
