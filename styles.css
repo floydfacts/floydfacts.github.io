@@ -282,6 +282,7 @@ h4.accordion {
 
 h4.active, h4.accordion:hover {
   border-bottom-color: transparent;
+  background-color:transparent;
 }
 
 h3.accordion, h4.accordion {
