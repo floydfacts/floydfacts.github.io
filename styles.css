@@ -248,6 +248,8 @@ p.compelled::before, h5.compelled::before {
   transition: 0.4s;
 }
 
+.toc{display:none;}
+
 #faq p{text-indent:0;}
 
 #contact:after, a.accordion, a.accordion:hover{
