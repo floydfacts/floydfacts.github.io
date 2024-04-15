@@ -77,6 +77,7 @@ a {
 }
 .nav li a {
     color: #06f;
+    font-weight:bold;
 }
 /*ul.nav li a.feature{font-weight:bold}*/
 .nav li::after {
@@ -107,6 +108,7 @@ h3.accordion{
 }
 #help_nav a{
     color: #56AE57;
+    font-weight:bold;
 }
 /* HEADER ####################################################### */
 
