@@ -361,6 +361,7 @@ a#loss_link, h3.title#loss{
 
 p#your_own_research{
     font-weight:bold;
+    text-indent:0;
 }
 p#your_own_research:before{
     content:"Warning: ";
