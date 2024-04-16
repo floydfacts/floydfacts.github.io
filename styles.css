@@ -220,7 +220,7 @@ footer p {
 #inner_center p.compelled {
 	text-indent: 0;
 }
-p.compelled::before, h5.compelled::before {
+p.compelled::before, h4.compelled::before {
     content: "Government-compelled Speech: ";
     color: #c00;
 }
