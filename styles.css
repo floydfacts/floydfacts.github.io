@@ -359,8 +359,14 @@ a#loss_link, h3.title#loss{
 	background-color:#94C9F1; 
 }
 
-
-
+a#your_own_research{
+    font-weight:bold;
+}
+a#your_own_research:before{
+    content:"Warning: ";
+    color: #c00;
+    font-weight:bold;
+}
 
 
 
